@@ -31,6 +31,5 @@ export default class Node extends Component {
           onMouseEnter={() => onMouseEnter(row, col)}
         ></div>
       );
-      
   }
 }

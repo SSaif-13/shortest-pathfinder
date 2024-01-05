@@ -3,10 +3,10 @@ import Node from "./Node/Node";
 import "./PathfindingVisualizer.css";
 import {dijkstra, getNodesInShortestPathOrder} from "./Dijkstras";
 
-const START_NODE_ROW = 10;
-const START_NODE_COL = 15;
-const FINISH_NODE_ROW = 10;
-const FINISH_NODE_COL = 35;
+const START_NODE_ROW = 5;
+const START_NODE_COL = 17;
+const FINISH_NODE_ROW = 11;
+const FINISH_NODE_COL = 32;
 
 export default class PathfindingVisualizer extends Component {
   constructor() {
